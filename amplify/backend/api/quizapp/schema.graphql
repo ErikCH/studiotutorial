@@ -1,0 +1,14 @@
+type Question @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  text: String
+  Answers: [Answer] @manyToMany(relationName: "QuestionAnswer")
+  AcceptedAnswer: Answer @hasOne
+  quizID: ID! @index(name: "byQuiz")
+}
+
+type Answer @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  text: String
+  questions: [Question] @manyToMany(relationName: "QuestionAnswer")
+}
+ 

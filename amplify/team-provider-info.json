@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizapp-staging-161051-authRole",
+      "UnauthRoleArn": "arn:aws:iam::127847013811:role/amplify-quizapp-staging-161051-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::127847013811:role/amplify-quizapp-staging-161051-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-quizapp-staging-161051-deployment",
+      "UnauthRoleName": "amplify-quizapp-staging-161051-unauthRole",
+      "StackName": "amplify-quizapp-staging-161051",
+      "StackId": "arn:aws:cloudformation:us-east-1:127847013811:stack/amplify-quizapp-staging-161051/071b4a00-0f85-11ee-a994-0ee13bd7284f",
+      "AmplifyAppId": "d2tn4w7c2xekf"
+    },
+    "categories": {
+      "auth": {
+        "quizapp": {}
+      }
+    }
+  }
+}
